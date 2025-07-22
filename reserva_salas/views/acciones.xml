@@ -2,7 +2,7 @@
     <record id="action_sala_reunion" model="ir.actions.act_window">
         <field name="name">Salas</field>
         <field name="res_model">sala.reunion</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
         <field name="help" type="html">
             <p>Cree y gestione las salas de reunión disponibles.</p>
         </field>
@@ -11,7 +11,7 @@
     <record id="action_reserva_reunion" model="ir.actions.act_window">
         <field name="name">Reservas</field>
         <field name="res_model">reserva.reunion</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
         <field name="help" type="html">
             <p>Gestione las reservas de las salas de reunión.</p>
         </field>

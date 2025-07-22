@@ -3,12 +3,12 @@
         <field name="name">sala.reunion.tree</field>
         <field name="model">sala.reunion</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="nombre"/>
                 <field name="capacidad"/>
                 <field name="ubicacion"/>
                 <field name="disponible"/>
-            </tree>
+            </list>
         </field>
     </record>
 
