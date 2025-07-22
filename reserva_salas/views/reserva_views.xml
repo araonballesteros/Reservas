@@ -1,0 +1,33 @@
+<odoo>
+    <record id="view_reserva_reunion_tree" model="ir.ui.view">
+        <field name="name">reserva.reunion.tree</field>
+        <field name="model">reserva.reunion</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="referencia"/>
+                <field name="sala_id"/>
+                <field name="fecha_inicio"/>
+                <field name="fecha_fin"/>
+                <field name="usuario_reserva"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_reserva_reunion_form" model="ir.ui.view">
+        <field name="name">reserva.reunion.form</field>
+        <field name="model">reserva.reunion</field>
+        <field name="arch" type="xml">
+            <form string="Reserva de Reunión">
+                <sheet>
+                    <group>
+                        <field name="referencia" readonly="1"/>
+                        <field name="sala_id"/>
+                        <field name="fecha_inicio"/>
+                        <field name="fecha_fin"/>
+                        <field name="usuario_reserva" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

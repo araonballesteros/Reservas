@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sala_reunion_user,sala.reunion.user,model_sala_reunion,base.group_user,1,1,1,1
+access_reserva_reunion_user,reserva.reunion.user,model_reserva_reunion,base.group_user,1,1,1,1

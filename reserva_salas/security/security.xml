@@ -1,0 +1,15 @@
+<odoo>
+    <record id="rule_sala_reunion_user" model="ir.rule">
+        <field name="name">Acceso a Salas</field>
+        <field name="model_id" ref="model_sala_reunion"/>
+        <field name="domain_force">[(1,'=',1)]</field>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+
+    <record id="rule_reserva_reunion_user" model="ir.rule">
+        <field name="name">Acceso a Reservas</field>
+        <field name="model_id" ref="model_reserva_reunion"/>
+        <field name="domain_force">[(1,'=',1)]</field>
+        <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+</odoo>
