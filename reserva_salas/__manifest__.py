@@ -1,0 +1,20 @@
+{
+    "name": "Reserva de Salas de Reunión",
+    "summary": "Gestión de salas y reservas de reunión",
+    "version": "18.0.1.0.0",
+    "author": "SofBiz Technologies, Lima, Perú — www.sofbiz.pe",
+    "website": "https://www.sofbiz.pe",
+    "license": "AGPL-3",
+    "category": "Productivity",
+    "depends": ["base"],
+    "data": [
+        "security/security.xml",
+        "security/ir.model.access.csv",
+        "views/acciones.xml",
+        "views/sala_views.xml",
+        "views/reserva_views.xml",
+        "views/menus.xml",
+    ],
+    "installable": True,
+    "application": True,
+}

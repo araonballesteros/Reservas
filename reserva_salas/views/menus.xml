@@ -1,0 +1,5 @@
+<odoo>
+    <menuitem id="menu_gestion_salas" name="Gestión de Salas de Reunión" sequence="10"/>
+    <menuitem id="menu_salas" name="Salas" parent="menu_gestion_salas" sequence="10" action="action_sala_reunion"/>
+    <menuitem id="menu_reservas" name="Reservas" parent="menu_gestion_salas" sequence="20" action="action_reserva_reunion"/>
+</odoo>
