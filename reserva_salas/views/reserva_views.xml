@@ -3,13 +3,13 @@
         <field name="name">reserva.reunion.tree</field>
         <field name="model">reserva.reunion</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="referencia"/>
                 <field name="sala_id"/>
                 <field name="fecha_inicio"/>
                 <field name="fecha_fin"/>
                 <field name="usuario_reserva"/>
-            </tree>
+            </list>
         </field>
     </record>
 
