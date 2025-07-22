@@ -1,0 +1,9 @@
+<odoo>
+    <record id="seq_reserva_reunion" model="ir.sequence">
+        <field name="name">Reserva de Reunión</field>
+        <field name="code">reserva.reunion</field>
+        <field name="prefix">RES</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False"/>
+    </record>
+</odoo>

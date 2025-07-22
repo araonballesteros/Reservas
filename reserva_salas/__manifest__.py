@@ -10,6 +10,7 @@
     "data": [
         "security/security.xml",
         "security/ir.model.access.csv",
+        "data/ir_sequence.xml",
         "views/acciones.xml",
         "views/sala_views.xml",
         "views/reserva_views.xml",

@@ -24,6 +24,12 @@ class ReservaReunion(models.Model):
         readonly=True,
     )
 
+    @api.model
+    def create(self, vals):
+        if vals.get('referencia', 'Nuevo') == 'Nuevo':
+            vals['referencia'] = self.env['ir.sequence'].next_by_code('reserva.reunion') or 'Nuevo'
+        return super().create(vals)
+
     @api.constrains('sala_id', 'fecha_inicio', 'fecha_fin')
     def _check_solapamiento(self):
         for reserva in self:
